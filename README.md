@@ -6,7 +6,6 @@
 
 ![Captura de tela 2024-11-07 200935](https://github.com/user-attachments/assets/bb79a53f-3380-4876-bcc8-3d55d208dd34)
 
-
 ## Tecnologias utilizadas:
 
 - HTML
@@ -21,7 +20,7 @@ Por favor, fique a vontade para explorar todos os botões!
 
 ### - Modo Dark/Light
 
-![edit.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/437ba3f1-3dba-4171-82d3-edd7a2b8364e/a6feec3c-42df-436c-b1e2-60021537f837/edit.png)
+![edit](https://github.com/user-attachments/assets/7459297a-68f9-4829-9c05-e885684509a8)
 
 Tá vendo esse pequeno botão destacado acima? Ao pressiona-lo, o design de toda a página é transformado em Tema Escuro.
 
@@ -31,9 +30,9 @@ A quantidade de brilho emanada da tela diminui, já que boa parte dela está “
 
 ### - Google Maps e Botão deletar
 
-![edit2.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/437ba3f1-3dba-4171-82d3-edd7a2b8364e/4228a7db-6b51-48af-8477-acdfb219a879/edit2.png)
+![edit2](https://github.com/user-attachments/assets/90ff08b3-8fce-4391-bb52-4dd1c1762f0f)
 
-![edit3.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/437ba3f1-3dba-4171-82d3-edd7a2b8364e/6616ae16-94f7-4040-864c-a9860acca38b/edit3.png)
+![edit3](https://github.com/user-attachments/assets/8e84ecf1-6b0e-48b3-ac36-b34bd11036f4)
 
 **O botão o MAPA**, redireciona para o Google Maps através do CEP inserido em determinada tabela. Tudo isso é feito través de um ID que é dado exclusivamente para cada tabela de acordo com o valor do CEP.
 
@@ -41,13 +40,13 @@ A quantidade de brilho emanada da tela diminui, já que boa parte dela está “
 
 ### -  Modal de aviso
 
-![modal.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/437ba3f1-3dba-4171-82d3-edd7a2b8364e/e1a856fe-fc34-4e18-94ce-a9c1887d563e/modal.png)
+![modal](https://github.com/user-attachments/assets/691bf680-9e95-4b7c-8d51-9f8fe7bada6f)
 
 **Digitou o CEP errado?** O modal te avisa quando isso acontecer!
 
 ### - Armazenamento Local
 
-![localstorage.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/437ba3f1-3dba-4171-82d3-edd7a2b8364e/497dec42-b631-40e9-be0b-a2b52b7e9504/localstorage.png)
+![localstorage](https://github.com/user-attachments/assets/d2e1dddf-ecdc-4ab0-bcde-9a109edc7386)
 
 Os valores do CEP é **ARMAZENADO** em formato de { objetos }, e tudo é salvo em Local Storage (Memória do Browser).
 
