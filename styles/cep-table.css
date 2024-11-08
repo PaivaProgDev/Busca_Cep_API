@@ -1,0 +1,102 @@
+.ceps-table {
+   width: 100%;
+   max-width: 50rem;
+   border-collapse: collapse;
+   box-shadow: var(--shadows);
+}
+
+.table-header th,
+.table-body td {
+   text-align: start;
+   border: solid 1px var(--table-border-color);
+}
+
+.table-header th {
+   padding: 7px 10px;
+   font-size: .9rem;
+   font-weight: 550;
+   color: var(--table-letter-color);
+   background-color: var(--table-header-color);
+}
+
+.table-body td {
+   padding: 10px;
+   background-color: var(--table-body-color);
+   font-size: .83rem;
+   color: var(--table-letter-color);
+   font-weight: 400;
+}
+
+.table-body,
+.table-header {
+   border-left: var(--left-border-tables);
+}
+
+.btn-cep-remove {
+   cursor: pointer;
+   color: var(--icon-delete-color);
+   padding: 5px;
+   border-radius: 10%;
+   font-size: 1.1rem;
+   background-color: var(--icon-delete-bg);
+}
+
+.btn-cep-remove:hover {
+   opacity: .8;
+}
+
+.cep-result {
+   background-color: red;
+   width: 50px;
+}
+
+.cep-result-box {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+
+.div-column-2 {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.map {
+   display: flex;
+   align-items: center;
+   gap: .4rem;
+   padding: 5px;
+   border-radius: 4px;
+   width: 100%;
+   max-width: fit-content;
+   cursor: pointer;
+   background-color: var(--default-color);
+   color: var(--white-color);
+   font-size: 1.2rem;
+}
+
+.map:hover {
+   opacity: .9;
+}
+
+.btn-see-map {
+   border: 0;
+   background-color: transparent;
+   font-weight: 400;
+   pointer-events: none;
+   color: var(--white-color);
+}
+
+.ceps-list {
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+   width: 100%;
+   max-width: fit-content;
+   margin: 6rem .5rem 4rem .5rem;
+}
+
+.cep {
+   width: 100%;
+}

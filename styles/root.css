@@ -1,0 +1,41 @@
+:root {
+   --primary-font: 'Noto sans', Poppins, 'sans-serif';
+   --shadows: -1px 2.5px 8px var(--shadows-color);
+   --left-border-tables: 5px solid var(--default-color);
+
+   --default-color: #575DC2;
+   --container-color: #fff;
+   --placeholder-color: #A7A7A7;
+   --white-color: #fff;
+   --modal-bg: rgb(255, 250, 242);
+   --modal-color: rgb(68, 68, 68);
+   --shadows-color: rgb(170, 170, 170);
+   --mode-icon-color: aliceblue;
+   --mode-icon-bg: #232730;
+   --icon-delete-color: aliceblue;
+   --icon-delete-bg: #575DC2;
+
+   /* TABELA */
+   --table-header-color: #fff;
+   --table-body-color: aliceblue;
+   --table-border-color: rgb(184, 184, 184);
+   --table-letter-color: rgb(54, 54, 54);
+}
+
+.dark-mode:root {
+   --default-color: #1e1f21;
+   --container-color: #131313;
+   --shadows-color: aliceblue;
+   --table-border-color: rgb(109, 109, 109);
+   --mode-icon-color: #283543;
+   --mode-icon-bg: aliceblue;
+   --icon-delete-color: aliceblue;
+   --icon-delete-bg: #3d3d3f;
+   --table-body-color: #2e2e2e;
+   --table-letter-color: rgb(235, 235, 235);
+   --shadows: 0;
+   --left-border-tables: 0;
+   --table-header-color: #1e1f21;
+   --modal-bg: rgb(68, 68, 68);
+   --modal-color: rgb(240, 240, 240);
+}

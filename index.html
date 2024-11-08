@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./styles/main.css">
+   <link rel="stylesheet" href="./styles/root.css">
+   <link rel="stylesheet" href="./styles/input-header.css">
+   <link rel="stylesheet" href="./styles/cep-table.css">
+   <link rel="stylesheet" href="./styles/modals.css">
+   <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+   <title>Buscador de CEP</title>
+</head>
+
+<body>
+   <div class="container">
+      <header class="search-header">
+         <!-- CAMPO DE ENTRADA -->
+         <label class="search-box">
+            <img class="search-icon" src="./assets/icons/search-icon.svg" alt="Icone de busca">
+            <input id="search-field" type="number" placeholder="CEP - Ex: 35570000">
+            <button onclick="addCep()" class="search-button">Buscar</button>
+         </label>
+         <!-- BOTÃO DE TEMA CLARO/ESCURO -->
+         <div class="toggle-theme" onclick="darkActive()">
+            <ion-icon class="dark-theme-icon" name="moon-outline"></ion-icon>
+            <ion-icon class="light-theme-icon" name="partly-sunny-outline"></ion-icon>
+         </div>
+      </header>
+
+      <!-- LISTA ONNDE OS CEPS SÃO INSERIDOS -->
+      <ul class="ceps-list">
+
+      </ul>
+
+      <!-- MODAL PARA AVISO DE CARACTERES OU CEP NÃO ENCONTRADO -->
+      <div class="alert-modal" data-modal="minChar">
+         <ion-icon class="modal-close-btn" name="close-outline"></ion-icon>
+         <span>Digite no mínimo 8 números</span>
+      </div>
+      <div class="alert-modal" data-modal="notFindCep">
+         <div class="modal-box">
+            <h3>Erro</h3>
+            <ion-icon class="modal-close-btn" name="close-outline"></ion-icon>
+         </div>
+         <span>
+            Não encontramos seu CEP, por favor, verifique se está correto...
+         </span>
+      </div>
+
+      <footer class="footer">
+         <h3>Desenvolvido por Guilherme Paiva | 2024</h3>
+      </footer>
+   </div>
+
+   <script src="./script.js"></script>
+   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

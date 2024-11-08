@@ -1,0 +1,89 @@
+/* Estilos do cabeçalho de digitação dos CEP's */
+.search-header {
+   background-color: var(--default-color);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: .9rem;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   z-index: 1;
+   padding: 1.2rem;
+   transition: 100ms ease-in-out;
+}
+
+.search-box {
+   display: flex;
+   width: 100%;
+   align-items: center;
+   max-width: 20rem;
+   gap: 10px;
+   padding: 5px;
+   border-radius: 5px;
+   background-color: var(--white-color);
+   align-items: center;
+}
+
+#search-field {
+   border: 0;
+   outline: 0;
+   width: 100%;
+}
+
+#search-field::-webkit-outer-spin-button,
+#search-field::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+   margin: 0;
+}
+
+#search-field::placeholder {
+   width: 100%;
+   font-size: .75rem;
+}
+
+.search-button {
+   background-color: var(--default-color);
+   color: var(--white-color);
+   border: 0;
+   border-radius: 5px;
+   padding: 8px 15px;
+   cursor: pointer;
+   transition: 100ms ease-in-out;
+}
+
+.search-button:hover {
+   opacity: 0.9;
+}
+
+/* BOTÃO DARK/LIGHT */
+.toggle-theme {
+   display: flex;
+   background-color: var(--mode-icon-bg);
+   overflow: hidden;
+   position: relative;
+   padding: 5px;
+   border-radius: 3px;
+   cursor: pointer;
+   transition: 250ms ease-in-out;
+}
+
+.dark-theme-icon {
+   color: var(--mode-icon-color);
+   font-size: 1.4rem;
+}
+
+.dark-theme-icon.dark-icon-active {
+   display: none;
+}
+
+.light-theme-icon {
+   color: var(--mode-icon-color);
+   display: none;
+   right: 100%;
+   font-size: 1.4rem;
+}
+
+.light-theme-icon.light-icon-active {
+   display: block;
+}
