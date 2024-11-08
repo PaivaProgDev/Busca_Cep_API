@@ -34,7 +34,7 @@ A quantidade de brilho emanada da tela diminui, já que boa parte dela está “
 
 ![edit3](https://github.com/user-attachments/assets/8e84ecf1-6b0e-48b3-ac36-b34bd11036f4)
 
-**O botão o MAPA**, redireciona para o Google Maps através do CEP inserido em determinada tabela. Tudo isso é feito través de um ID que é dado exclusivamente para cada tabela de acordo com o valor do CEP.
+**O botão o MAPA**, redireciona para o Google Maps através do CEP inserido em determinada tabela. Tudo isso é feito através de um ID que é gerado exclusivamente para cada tabela de acordo com o valor do CEP.
 
 **O botão 🗑️ (DELETE),** remove determinada tabela da sua lista de CEP’s.
 
