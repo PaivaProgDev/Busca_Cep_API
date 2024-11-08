@@ -1,4 +1,4 @@
-# ## Buscador de CEP - v1.0 (API)
+# ## Busca de CEP - v1.0 (API)
 
 **Descrição: Traz o estado, cidade, bairro e rua de uma determinada localização pelo CEP. É possível visitar o local diretamente pelo Google Maps.**
 
