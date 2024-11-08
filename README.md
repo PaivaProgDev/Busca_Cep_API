@@ -4,7 +4,8 @@
 
 - API utilizada: Brasil API - https://brasilapi.com.br/
 
-![Captura de tela 2024-11-07 200935.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/437ba3f1-3dba-4171-82d3-edd7a2b8364e/c14cb7ca-e308-4475-80a2-4126676a25c3/Captura_de_tela_2024-11-07_200935.png)
+![Captura de tela 2024-11-07 200935](https://github.com/user-attachments/assets/bb79a53f-3380-4876-bcc8-3d55d208dd34)
+
 
 ## Tecnologias utilizadas:
 
